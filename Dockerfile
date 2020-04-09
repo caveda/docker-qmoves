@@ -29,4 +29,4 @@ WORKDIR /app
 
 # Define entrypoint application
 ENTRYPOINT [ "python", "/app/script-scheduler/schedule-script.py", "/app/update-transit-data.sh"]
-CMD ["22:00"]
+CMD ["00:00"]
